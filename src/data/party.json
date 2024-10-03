@@ -1,0 +1,22 @@
+[
+  {
+    "image": "partaiummat.png",
+    "name": "Partai Ummat"
+  },
+  {
+    "image": "partaiburuh.png",
+    "name": "Partai Buruh"
+  },
+  {
+    "image": "partaipdip.png",
+    "name": "Partai PDI Perjuangan"
+  },
+  {
+    "image": "partaihanura.png",
+    "name": "Partai Hanura"
+  },
+  {
+    "image": "partaigelora.png",
+    "name": "Partai Gelora"
+  }
+]

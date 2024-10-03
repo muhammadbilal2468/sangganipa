@@ -1,0 +1,27 @@
+import PropTypes from "prop-types";
+
+const Button = ({
+  type = "button",
+  onClick = () => {},
+  children,
+  className = "",
+}) => {
+  return (
+    <button
+      type={type}
+      onClick={onClick}
+      className={`lg:px-6 md:px-4 sm:px-2 py-1 bg-primary lg:text-base md:text-sm sm:text-[10px] text-white font-medium rounded-md hover:bg-yellow-500 transition duration-300 ease-in-out ${className}`}
+    >
+      {children}
+    </button>
+  );
+};
+
+Button.propTypes = {
+  type: PropTypes.oneOf(["button", "submit", "reset"]),
+  onClick: PropTypes.func,
+  children: PropTypes.node.isRequired,
+  className: PropTypes.string,
+};
+
+export default Button;

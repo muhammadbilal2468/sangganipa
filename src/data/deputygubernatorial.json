@@ -1,0 +1,157 @@
+{
+  "id": 1,
+  "image": "/wakil.png",
+  "name": "Sulaiman Agusto, S.I.P., M.M.",
+  "place_of_birth": "Makassar",
+  "date_of_birth": "11-08-1966",
+  "religion": "Kristen Protestan",
+  "wife": "Helly Lantu",
+  "children": [
+    "Andhika Prawira",
+    "Donny Chandra The, B. Com-Prof Accg",
+    "dr. Donna Shandra Siswaty, Mars"
+  ],
+  "academic_history": [
+    {
+      "name": "Sekolah Dasar",
+      "year": "1979-1982"
+    },
+    {
+      "name": "Sekolah Lanjut Tingkat Pertama",
+      "year": "1982-1985"
+    },
+    {
+      "name": "Sekolah Menengah Atas 1 Poso",
+      "year": "1985-1988"
+    },
+    {
+      "name": "Akademi Militer",
+      "year": "1988"
+    },
+    {
+      "name": "Sussarcabkav",
+      "year": "1989"
+    },
+    {
+      "name": "Suslapa 1",
+      "year": "1992"
+    },
+    {
+      "name": "Suslapa 2",
+      "year": "1997"
+    },
+    {
+      "name": "S1 Universitas",
+      "year": "1998"
+    },
+    {
+      "name": "Seskoad",
+      "year": "2001"
+    },
+    {
+      "name": "Susdanyon Multi Korps",
+      "year": "2003"
+    },
+    {
+      "name": "S2 Universitas",
+      "year": "2013"
+    },
+    {
+      "name": "Lemhanas RI",
+      "year": "2017"
+    }
+  ],
+  "job_history": [
+    {
+      "position": "DANTON 3/74 YONKAV 7/SESUS DAM JAYA",
+      "year": "1989"
+    },
+    {
+      "position": "DANTON 2/74 YONKAV 7/SESUS DAM JAYA",
+      "year": "1990"
+    },
+    {
+      "position": "DANTON 1/74 YONKAV 7/SESUS DAM JAYA",
+      "year": "1991"
+    },
+    {
+      "position": "DANRAMIL 02/PJP DIM 0502/JU BS",
+      "year": "1996"
+    },
+    {
+      "position": "PS. KASIRANABAK DEPSEN PUSDIKKAV PUSSENKAV",
+      "year": ""
+    },
+    {
+      "position": "DANSATDIKTA PUSDIKKAV PUSSENKAV",
+      "year": "1998"
+    },
+    {
+      "position": "WADANYONKAV 7/SERSUS DAM JAYA",
+      "year": "2000"
+    },
+    {
+      "position": "PAMEN DAM JAYA (DIK SESKOAD)",
+      "year": "2001"
+    },
+    {
+      "position": "PABANDYA BINKAR SPERSDAM XVI/PTM",
+      "year": "2002"
+    },
+    {
+      "position": "DANYONKAV 8 DIVIF 2 KOSTRAD",
+      "year": "2004"
+    },
+    {
+      "position": "DANYONKAV 11/SERBU DAM IM",
+      "year": "2005"
+    },
+    {
+      "position": "DANDIM 0502/JU REM 052/WKR",
+      "year": "2009"
+    },
+    {
+      "position": "KASREM 051/WKT DAM JAYA",
+      "year": "2011"
+    },
+    {
+      "position": "DANREM 131/STG (MANADO) DAM VII/WRB",
+      "year": "2017"
+    },
+    {
+      "position": "KASDAM XII/TPR",
+      "year": "2018"
+    },
+    {
+      "position": "PATI AHLI KASAD BIDANG HUKUM",
+      "year": "2020"
+    },
+    {
+      "position": "TENAGA AHLI PENGAJAR BIDANG GEOSTRATEGIS & TANNAS LEMHANNAS RI",
+      "year": "2021"
+    },
+    {
+      "position": "PANGDAM XII/TPR",
+      "year": "2021"
+    },
+    {
+      "position": "PA SAHLI TK. III KASAD BID. EKKUDAG",
+      "year": "2023"
+    },
+    {
+      "position": "STAF AHLI BIDANG EKONOMI SEKJEN WANTANNAS RI",
+      "year": "2023"
+    }
+  ],
+  "respect_history": [
+    "S.L KESETIAAN VIII",
+    "S.L KESETIAAN XVI",
+    "BINTANG K.E.P. NARARYA",
+    "S.L. DHARMA NUSA AMBON",
+    "S.L. DHARMA NUSA ACEH",
+    "S.L. KEBAKTIAN SOSIAL",
+    "BINTANG KARTIKA EKA PAKSI PRATAMA",
+    "BINTANG YUDHA DHARMA NARARYA",
+    "S.L. DHARMA BANTALAN"
+  ]
+}

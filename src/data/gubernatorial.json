@@ -1,0 +1,94 @@
+{
+  "id": 1,
+  "image": "/ketua.png",
+  "name": "H. Rusdy Mastura",
+  "place_of_birth": "Palu",
+  "date_of_birth": "08-02-1950",
+  "religion": "Islam",
+  "wife": "Hj. Vera Rompas Mastura",
+  "children": [
+    "Asharini Mastura",
+    "Machatir Mastura",
+    "Sultan Beybar Mastura",
+    "Gifary Yahya Mastura",
+    "Sultan Malikul Mastura"
+  ],
+  "academic_history": [
+    {
+      "name": "SD Islam YPPI Donggala",
+      "year": "1962"
+    },
+    {
+      "name": "SMP Negeri Donggala",
+      "year": "1965"
+    },
+    {
+      "name": "SMA Negeri 1 Palu",
+      "year": "1969"
+    }
+  ],
+  "job_history": [
+    {
+      "position": "Wakil Bupati Palu",
+      "year": "2011 - 2016"
+    },
+    {
+      "position": "Anggota DPRD Provinsi Sulawesi Tengah",
+      "year": "1997 - 1999"
+    },
+    {
+      "position": "Ketua DPRD Kota Palu",
+      "year": "1999 - 2004"
+    },
+    {
+      "position": "Ketua DPRD Kota Palu",
+      "year": "2004 - 2005"
+    },
+    {
+      "position": "Wali Kota Palu",
+      "year": "2005 - 2010"
+    },
+    {
+      "position": "Wali Kota Palu",
+      "year": "2010 - 2015"
+    },
+    {
+      "position": "Gubernur Sulawesi Tengah",
+      "year": "2021 - Sekarang"
+    }
+  ],
+  "organization_history": [
+    {
+      "name": "DPRD Palu",
+      "year": "2000 - 2005"
+    },
+    {
+      "name": "Ketua MPW Pemuda Pancasila Provinsi Sulawesi Tengah",
+      "year": "1990 - 1997"
+    },
+    {
+      "name": "Ketua MPW Pemuda Pancasila Provinsi Sulawesi Tengah",
+      "year": "2001 - 2007"
+    },
+    {
+      "name": "Wakil Ketua DPD II Partai Golkar Kota Palu",
+      "year": "1999 - 2004"
+    },
+    {
+      "name": "Ketua DPD II Partai Golkar Kota Palu",
+      "year": "2004 - 2009"
+    },
+    {
+      "name": "Ketua DPD II Partai Golkar Kabupaten Donggala",
+      "year": "2017 - 2018"
+    },
+    {
+      "name": "Ketua Dewan Pertimbangan Partai Nasdem Provinsi Sulawesi Tengah",
+      "year": "2018 - 2023"
+    },
+    {
+      "name": "Anggota Dewan Pembina DPP Partai Gerindra",
+      "year": "2023 - sekarang"
+    }
+  ]
+}
