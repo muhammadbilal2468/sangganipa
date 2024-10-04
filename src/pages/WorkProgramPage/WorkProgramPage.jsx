@@ -28,7 +28,7 @@ const WorkProgramPage = () => {
               image={program.image}
               title={program.title}
               desc={program.desc}
-              reverse={index % 2 === 1} // Ganjil reverse
+              reverse={index % 2 === 1}
             />
           ))}
         </div>

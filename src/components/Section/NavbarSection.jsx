@@ -16,9 +16,13 @@ const NavbarSection = ({ isScrolled }) => {
     >
       <div className="xl:px-32 lg:px-24 md:px-10 sm:px-5 mx-auto py-4 flex justify-between items-center">
         <div className="lg:text-2xl md:text-lg sm:text-sm font-extrabold">
-          <h1 className={isScrolled ? "text-white" : "text-primary"}>
-            SANGGANIPA
-          </h1>
+          <Link to={"/"}>
+            <img
+              src="/logo.png"
+              alt=""
+              className="lg:h-10 md:h-8 sm:h-6 rounded-md bg-gray-100 p-1"
+            />
+          </Link>
         </div>
 
         <div className="sm:hidden md:block flex lg:space-x-6 md:space-x-2">

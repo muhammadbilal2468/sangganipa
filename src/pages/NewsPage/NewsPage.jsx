@@ -37,7 +37,7 @@ const NewsPage = () => {
             <CardNews
               key={newsItem.id}
               id={newsItem.id}
-              image={newsItem.image}
+              image={`/gallery${newsItem.id + 1}.jpg`}
               author={newsItem.author}
               date={newsItem.date}
               title={newsItem.title}

@@ -5,7 +5,6 @@ import gallery from "../../data/gallery.json";
 import Layout from "../../layouts/Layout";
 
 const GalleryPage = () => {
-  // Inisialisasi state dengan gambar yang lebih banyak (misalnya 8)
   const [visibleImages, setVisibleImages] = useState(8);
 
   const loadMore = () => {
@@ -26,7 +25,6 @@ const GalleryPage = () => {
         </h1>
         <div className="grid grid-cols-4 gap-4">
           {" "}
-          {/* Mengubah grid menjadi 4 kolom */}
           {gallery.slice(0, visibleImages).map((item, index) => (
             <div
               key={index}

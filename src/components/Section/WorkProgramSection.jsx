@@ -1,6 +1,7 @@
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import workprogram from "../../data/workprogram.json";
+import CardWorkProgram from "../Fragment/CardWorkProgram";
 
 const WorkProgramSection = () => {
   return (
@@ -17,59 +18,17 @@ const WorkProgramSection = () => {
         </Link>
       </div>
       <div className="lg:space-y-32 md:space-y-10 space-y-10">
-        <div className="grid grid-cols-2 items-start lg:gap-32 md:gap-16 gap-10">
-          <div className="relative w-full lg:h-full md:h-56 h-40">
-            <img
-              src="/workprogram1.jpg"
-              alt=""
-              className="absolute top-0 left-0 right-0 bottom-0 w-full h-full z-20"
+        <div className="grid grid-cols-1 lg:gap-32 md:gap-20 gap-10 mt-10">
+          {workprogram.slice(2, 4).map((program, index) => (
+            <CardWorkProgram
+              key={program.id}
+              id={program.id}
+              image={program.image}
+              title={program.title}
+              desc={program.desc}
+              reverse={index % 2 === 1}
             />
-            <img
-              src="/vector1.png"
-              alt=""
-              className="absolute -top-1 -left-5 z-10 lg:w-32 nd:w-20 w-16 -rotate-45"
-            />
-            <img
-              src="/vector1.png"
-              alt=""
-              className="absolute -top-1 -right-5 z-10 lg:w-32 nd:w-20 w-16 rotate-45"
-            />
-          </div>
-          <div className="lg:space-y-10 md:space-y-4 space-y-2">
-            <h2 className="lg:text-3xl md:text-base text-xs font-semibold text-tertiary">
-              {workprogram[2].title}
-            </h2>
-            <p className="lg:text-base md:text-xs text-[8px] text-justify">
-              {workprogram[2].desc}
-            </p>
-          </div>
-        </div>
-        <div className="grid grid-cols-2 items-start lg:gap-32 md:gap-20 gap-10">
-          <div className="lg:space-y-10 md:space-y-4 space-y-2">
-            <h2 className="lg:text-3xl md:text-base text-xs font-semibold text-tertiary text-right">
-              {workprogram[3].title}
-            </h2>
-            <p className="lg:text-base md:text-xs text-[8px] text-justify">
-              {workprogram[3].desc}
-            </p>
-          </div>
-          <div className="relative w-full lg:h-full md:h-56 h-40">
-            <img
-              src="/workprogram1.jpg"
-              alt=""
-              className="absolute top-0 left-0 right-0 bottom-0 w-full h-full z-20"
-            />
-            <img
-              src="/vector1.png"
-              alt=""
-              className="absolute -top-1 -left-5 z-10 lg:w-32 nd:w-20 w-16 -rotate-45"
-            />
-            <img
-              src="/vector1.png"
-              alt=""
-              className="absolute -top-1 -right-5 z-10 lg:w-32 nd:w-20 w-16 rotate-45"
-            />
-          </div>
+          ))}
         </div>
       </div>
     </div>

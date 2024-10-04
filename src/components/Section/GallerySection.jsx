@@ -1,6 +1,7 @@
 import { FaArrowCircleRight } from "react-icons/fa";
 import Button from "../Base/Button";
 import { Link } from "react-router-dom";
+import gallery from "../../data/gallery.json";
 
 const GallerySection = () => {
   return (
@@ -8,99 +9,16 @@ const GallerySection = () => {
       <h1 className="lg:text-3xl md:text-2xl text-lg font-bold text-primary text-center lg:mb-20 md:mb-10 mb-6">
         G A L E R I
       </h1>
-      <div className="grid grid-cols-4 gap-4 lg:mb-10 md:mb-6 mb-5">
-        <div className="grid gap-4">
-          <div>
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4 lg:mb-10 md:mb-6 mb-5">
+        {gallery.slice(0, 12).map((item, index) => (
+          <div className="w-full lgf:h-56 md:h-36 h-24 rounded-lg" key={index}>
             <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
+              className="w-full h-full rounded-lg"
+              src={`/gallery${index + 1}.jpg  `}
               alt=""
             />
           </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="grid gap-4">
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="grid gap-4">
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="grid gap-4">
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
-              alt=""
-            />
-          </div>
-        </div>
+        ))}
       </div>
       <div className="flex justify-center">
         <Link to={"/gallery"}>

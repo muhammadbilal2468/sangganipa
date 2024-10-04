@@ -11,7 +11,7 @@ const ProfilePage = () => {
             <img
               src={gubernatorial.image}
               alt=""
-              className="lg:w-96 md:w-80 w-72 lg:h-[450px] md:h-[350px] h-[250px] self-center"
+              className="lg:w-96 md:w-80 w-52 lg:h-[450px] md:h-[350px] h-[250px] self-center"
             />
             <div className="relative w-full border-t-4 border-primary">
               <h2 className="absolute lg:-top-7 md:-top-5 -top-3 left-0 lg:text-3xl md:text-xl text-sm font-bold bg-secondary text-white py-1 px-10 rounded-lg">
@@ -19,11 +19,11 @@ const ProfilePage = () => {
               </h2>
             </div>
             <div className="space-y-2 lg:mt-10 mt-5">
-              <p className="lg:text-xl md:text-lg text-sm font-primary">
+              <p className="lg:text-xl md:text-lg text-[10px] font-primary">
                 <span className="font-bold">Tempat, Tanggal Lahir : </span>
                 {gubernatorial.place_of_birth}, {gubernatorial.date_of_birth}
               </p>
-              <p className="lg:text-xl md:text-lg text-sm font-primary">
+              <p className="lg:text-xl md:text-lg text-[10px] font-primary">
                 <span className="font-bold">Agama : </span>
                 {gubernatorial.religion}
               </p>
@@ -32,13 +32,13 @@ const ProfilePage = () => {
               <p className="text-primary lg:text-xl md:text-lg text-base font-extrabold">
                 KELUARGA
               </p>
-              <p className="lg:text-xl md:text-lg text-sm font-primary">
+              <p className="lg:text-xl md:text-lg text-[10px] font-primary">
                 <span className="font-bold">Istri : </span>
                 {gubernatorial.wife}
               </p>
               {gubernatorial.children.map((child, index) => (
                 <p
-                  className="lg:text-xl md:text-lg text-sm font-primary"
+                  className="lg:text-xl md:text-lg text-[10px] font-primary"
                   key={index}
                 >
                   <span className="font-bold">Anak ke-{index + 1} : </span>
@@ -52,7 +52,7 @@ const ProfilePage = () => {
               </p>
               {gubernatorial.academic_history.map((item, index) => (
                 <p
-                  className="lg:text-xl md:text-lg text-sm font-primary"
+                  className="lg:text-xl md:text-lg text-[10px] font-primary"
                   key={index}
                 >
                   {item.name}
@@ -66,7 +66,7 @@ const ProfilePage = () => {
               </p>
               {gubernatorial.job_history.map((item, index) => (
                 <p
-                  className="lg:text-xl md:text-lg text-sm font-primary"
+                  className="lg:text-xl md:text-lg text-[10px] font-primary"
                   key={index}
                 >
                   {item.position}
@@ -80,7 +80,7 @@ const ProfilePage = () => {
               </p>
               {gubernatorial.organization_history.map((item, index) => (
                 <p
-                  className="lg:text-xl md:text-lg text-sm font-primary"
+                  className="lg:text-xl md:text-lg text-[10px] font-primary"
                   key={index}
                 >
                   {item.name}
@@ -94,7 +94,7 @@ const ProfilePage = () => {
             <img
               src={deputygubernatorial.image}
               alt=""
-              className="lg:w-96 md:w-80 w-72 lg:h-[450px] md:h-[350px] h-[250px] self-center"
+              className="lg:w-96 md:w-80 w-52 lg:h-[450px] md:h-[350px] h-[250px] self-center"
             />
             <div className="relative w-full border-t-4 border-primary">
               <h2 className="absolute lg:-top-7 md:-top-5 -top-3 left-0 lg:text-3xl md:text-xl text-sm font-bold bg-secondary text-white py-1 px-10 rounded-lg">
@@ -102,12 +102,12 @@ const ProfilePage = () => {
               </h2>
             </div>
             <div className="space-y-2 lg:mt-10 mt-5">
-              <p className="lg:text-xl md:text-lg text-sm font-primary">
+              <p className="lg:text-xl md:text-lg text-[10px] font-primary">
                 <span className="font-bold">Tempat, Tanggal Lahir : </span>
                 {deputygubernatorial.place_of_birth},{" "}
                 {deputygubernatorial.date_of_birth}
               </p>
-              <p className="lg:text-xl md:text-lg text-sm font-primary">
+              <p className="lg:text-xl md:text-lg text-[10px] font-primary">
                 <span className="font-bold">Agama : </span>
                 {deputygubernatorial.religion}
               </p>
@@ -116,13 +116,13 @@ const ProfilePage = () => {
               <p className="text-primary lg:text-xl md:text-lg text-base font-extrabold">
                 KELUARGA
               </p>
-              <p className="lg:text-xl md:text-lg text-sm font-primary">
+              <p className="lg:text-xl md:text-lg text-[10px] font-primary">
                 <span className="font-bold">Istri : </span>
                 {deputygubernatorial.wife}
               </p>
               {deputygubernatorial.children.map((child, index) => (
                 <p
-                  className="lg:text-xl md:text-lg text-sm font-primary"
+                  className="lg:text-xl md:text-lg text-[10px] font-primary"
                   key={index}
                 >
                   <span className="font-bold">Anak ke-{index + 1} : </span>
@@ -136,7 +136,7 @@ const ProfilePage = () => {
               </p>
               {deputygubernatorial.academic_history.map((item, index) => (
                 <p
-                  className="lg:text-xl md:text-lg text-sm font-primary"
+                  className="lg:text-xl md:text-lg text-[10px] font-primary"
                   key={index}
                 >
                   {item.name}
@@ -150,7 +150,7 @@ const ProfilePage = () => {
               </p>
               {deputygubernatorial.job_history.map((item, index) => (
                 <p
-                  className="lg:text-xl md:text-lg text-sm font-primary"
+                  className="lg:text-xl md:text-lg text-[10px] font-primary"
                   key={index}
                 >
                   {item.position}
@@ -164,7 +164,7 @@ const ProfilePage = () => {
               </p>
               {deputygubernatorial.respect_history.map((item, index) => (
                 <p
-                  className="lg:text-xl md:text-lg text-sm font-primary"
+                  className="lg:text-xl md:text-lg text-[10px] font-primary"
                   key={index}
                 >
                   {item}

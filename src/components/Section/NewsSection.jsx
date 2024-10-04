@@ -10,12 +10,12 @@ const NewsSection = () => {
       <h1 className="lg:text-3xl md:text-2xl text-lg font-bold text-primary text-center lg:mb-20 md:mb-10 mb-6">
         B E R I T A
       </h1>
-      <div className="grid grid-cols-3 lg:gap-10 md:gap-5 gap-3 items-center lg:mb-10 md:mb-6 mb-5">
-        {news.slice(0, 3).map((item) => (
+      <div className="grid md:grid-cols-4 grid-cols-2 lg:gap-10 md:gap-5 gap-3 items-center lg:mb-10 md:mb-6 mb-5">
+        {news.slice(0, 4).map((item, index) => (
           <CardNews
             key={item.id}
             id={item.id}
-            image={item.image}
+            image={`/gallery${index + 1}.jpg`}
             author={item.author}
             date={item.date}
             title={item.title}
