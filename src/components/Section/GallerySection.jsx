@@ -11,7 +11,7 @@ const GallerySection = () => {
       </h1>
       <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4 lg:mb-10 md:mb-6 mb-5">
         {gallery.slice(0, 12).map((item, index) => (
-          <div className="w-full lgf:h-56 md:h-36 h-24 rounded-lg" key={index}>
+          <div className="w-full lg:h-60 md:h-40 h-36 rounded-lg" key={index}>
             <img
               className="w-full h-full rounded-lg"
               src={`/gallery${index + 1}.jpg  `}

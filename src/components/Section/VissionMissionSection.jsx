@@ -38,17 +38,17 @@ const VissionMissonSection = () => {
         <div className="max-w-screen-xl mx-auto z-10">
           <div className="relative mt-10">
             <div className="flex flex-col justify-center items-center gap-5 mb-10">
-              <h1 className="lg:text-3xl md:text-2xl text-lg font-bold text-white text-center">
+              <h1 className="lg:text-3xl md:text-xl text-md font-bold text-white text-center">
                 V I S I
               </h1>
               <div className="xl:p-6 p-3 rounded-md lg::w-1/2 w-full text-center bg-primary text-white shadow-2xl">
-                <p className="lg:leading-9 leading-5 xl:text-lg text-[10px] shadow-2xl rounded-lg lg:p-3 p-2">
+                <p className="lg:leading-9 leading-5 lg:text-lg md:text-sm text-[10px] shadow-2xl rounded-lg lg:p-3 p-2">
                   {vision}
                 </p>
               </div>
             </div>
             <div className="flex flex-col justify-center items-center gap-5 mb-10">
-              <h1 className="lg:text-3xl md:text-2xl text-lg font-bold text-white text-center">
+              <h1 className="lg:text-3xl md:text-xl text-md font-bold text-white text-center">
                 V I S I
               </h1>
               <div className="grid xl:grid-cols-3 grid-cols-2 lg:gap-10 gap-5">
