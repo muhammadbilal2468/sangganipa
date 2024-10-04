@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { FaArrowCircleDown, FaArrowCircleUp } from "react-icons/fa";
+import { RiGalleryFill } from "react-icons/ri";
 import Button from "../../components/Base/Button";
 import gallery from "../../data/gallery.json";
 import Layout from "../../layouts/Layout";
 
 const GalleryPage = () => {
-  const [visibleImages, setVisibleImages] = useState(8);
+  const [visibleImages, setVisibleImages] = useState(5);
 
   const loadMore = () => {
     if (visibleImages >= gallery.length) return;
@@ -13,15 +14,15 @@ const GalleryPage = () => {
   };
 
   const showLess = () => {
-    if (visibleImages <= 8) return;
-    setVisibleImages((prev) => (prev > 8 ? prev - 5 : 8));
+    if (visibleImages <= 5) return;
+    setVisibleImages((prev) => (prev > 5 ? prev - 5 : 5));
   };
 
   return (
     <Layout>
       <div className="relative xl:px-32 lg:px-24 md:px-10 sm:px-5 w-full">
-        <h1 className="lg:text-4xl md:text-xl text-sm font-bold text-primary text-center mb-10">
-          Galeri
+        <h1 className="flex items-center justify-center gap-2 lg:text-3xl md:text-xl text-md font-bold lg:py-10 md:py-5 py-3 relative text-secondary bg-white p-4 rounded-md mb-10">
+          <RiGalleryFill /> G A L E R I
         </h1>
         <div className="grid grid-cols-4 gap-4">
           {" "}

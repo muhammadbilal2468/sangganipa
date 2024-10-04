@@ -1,28 +1,10 @@
 {
-  "vision": {
-    "name": "Visi Pembangunan Sulteng 2025-2029 \"Transformasi Wilayah Sulawesi Tengah Sebagai Pusat Ekonomi Kawasan Timur Indonesia Menuju Sulteng Emas 2045\"",
-    "image": "visi_1.png"
-  },
+  "vision": "Visi Pembangunan Sulteng 2025-2029 \"Transformasi Wilayah Sulawesi Tengah Sebagai Pusat Ekonomi Kawasan Timur Indonesia Menuju Sulteng Emas 2045\"",
   "missions": [
-    {
-      "name": "Transformasi Sumber Daya Manusia yang Berkualitas",
-      "image": "misi_1.png"
-    },
-    {
-      "name": "Transformasi Perekonomian Daerah yang Inklusif dan Berkelanjutan",
-      "image": "misi_2.png"
-    },
-    {
-      "name": "Transformasi Tata Kelola Pemerintahan yang Berkualitas",
-      "image": "misi_3.png"
-    },
-    {
-      "name": "Ketahanan Sosial Budaya dan Ekologi",
-      "image": "misi_4.png"
-    },
-    {
-      "name": "Pembangunan Kewilayahan yang Merata dan Berkeadilan",
-      "image": "misi_5.png"
-    }
+    "Transformasi Sumber Daya Manusia yang Berkualitas",
+    "Transformasi Perekonomian Daerah yang Inklusif dan Berkelanjutan",
+    "Transformasi Tata Kelola Pemerintahan yang Berkualitas",
+    "Ketahanan Sosial Budaya dan Ekologi",
+    "Pembangunan Kewilayahan yang Merata dan Berkeadilan"
   ]
 }

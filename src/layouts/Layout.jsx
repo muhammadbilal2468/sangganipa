@@ -29,9 +29,7 @@ const Layout = ({ children }) => {
   return (
     <div className="relative w-full min-h-screen bg-gray-100">
       <NavbarSection isScrolled={isScrolled} />
-      <div className="relative w-full lg:min-h-screen h-fit pt-20">
-        {children}
-      </div>
+      <div className="relative w-full pt-20">{children}</div>
       <FooterSection />
     </div>
   );
