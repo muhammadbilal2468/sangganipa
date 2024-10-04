@@ -42,7 +42,7 @@ const VissionMissonSection = () => {
                 V I S I
               </h1>
               <div className="xl:p-6 p-3 rounded-md lg::w-1/2 w-full text-center bg-primary text-white shadow-2xl">
-                <p className="lg:leading-9 leading-7 xl:text-lg text-sm shadow-2xl rounded-lg">
+                <p className="lg:leading-9 leading-5 xl:text-lg text-[10px] shadow-2xl rounded-lg lg:p-3 p-2">
                   {vision}
                 </p>
               </div>
