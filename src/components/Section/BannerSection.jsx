@@ -10,7 +10,7 @@ const BannerSection = () => {
     link.click();
   };
   return (
-    <div className="relative xl:px-32 lg:px-24 md:px-10 sm:px-5 grid grid-cols-2 lg:h-screen h-fit -mt-20 pt-20">
+    <div className="relative xl:px-32 lg:px-24 md:px-10 sm:px-5 grid grid-cols-2 lg:h-screen h-fit -mt-20 pt-20 border-b-2">
       <div className="cols-span-1 flex flex-col justify-center lg:gap-5 md:gap-3 gap-2 lg:pb-0 md:pb-20 pb-10">
         <h2 className="lg:text-4xl md:text-lg text-xs font-semibold">
           Menyerukan Kerjasama Untuk <br />{" "}
