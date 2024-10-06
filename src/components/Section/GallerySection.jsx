@@ -40,10 +40,15 @@ const GallerySection = () => {
             data-aos="fade-down"
             data-aos-duration={index * 200}
           >
-            <img className="w-full h-full rounded-lg" src={item.image} alt="" />
+            <img
+              className="w-full h-full rounded-lg object-cover"
+              src={item.image}
+              alt=""
+            />
           </div>
         ))}
       </div>
+
       <div className="flex justify-center">
         <Link to={"/gallery"}>
           <Button className="flex items-center gap-2">

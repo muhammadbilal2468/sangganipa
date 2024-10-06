@@ -21,7 +21,7 @@ const CardNews = ({ id, image, title, author, desc, link }) => {
       <img
         src={`${image}`}
         alt=""
-        className="w-full lg:h-48 md:h-48 h-48 rounded-xl"
+        className="w-full lg:h-48 md:h-48 h-48 rounded-xl object-cover"
       />
       <div className="flex flex-col gap-5 h-full">
         <div className="h-full flex flex-col gap-2 flex-grow">

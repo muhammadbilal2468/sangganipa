@@ -29,13 +29,13 @@ const GalleryPage = () => {
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
           {gallery.slice(0, visibleImages).map((item, index) => (
             <div
-              className="w-full lg:h-72 md:h-64 h-60 rounded-lg"
+              className="w-full lg:h-72 md:h-64 h-60 rounded-lg lg:p-2 p-1 bg-white"
               key={index}
               data-aos="fade-down"
-              data-aos-duration="500"
+              data-aos-duration="200"
             >
               <img
-                className="w-full h-full rounded-lg"
+                className="w-full h-full rounded-lg object-cover"
                 src={item.image}
                 alt=""
               />

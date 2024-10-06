@@ -1,9 +1,9 @@
-import { IoDocumentText } from "react-icons/io5";
-import party from "../../data/party.json";
-import Button from "../Base/Button";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { MdDownload } from "react-icons/md";
+import party from "../../data/party.json";
+import Button from "../Base/Button";
 
 const BannerSection = () => {
   useEffect(() => {
@@ -21,7 +21,7 @@ const BannerSection = () => {
     <div className="lg:pt-16 md:pt-10 pt-0 border-b-2">
       <div className="relative xl:px-32 lg:px-24 md:px-10 sm:px-5 grid grid-cols-6 md:pb-0 pb-5">
         <div className="md:col-span-3 col-span-4 flex flex-col justify-center lg:gap-5 md:gap-3 gap-2">
-          <div className="flex items-center justify-center gap-2">
+          <div className="flex items-center justify-items-start gap-2">
             {party.map((item, index) => (
               <img
                 src={item.image}
@@ -33,7 +33,7 @@ const BannerSection = () => {
               />
             ))}
           </div>
-          <div className="flex items-center lg:gap-5 md:gap-3 gap-2">
+          <div className="flex items-center lg:gap-5 md:gap-3 gap-2 border-2">
             <div className="lg:space-y-5 md:space-y-3 space-y-2">
               <h2
                 className="lg:text-6xl md:text-2xl text-xl font-extrabold bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent"
@@ -53,23 +53,23 @@ const BannerSection = () => {
                 className="flex items-center gap-2 w-fit self-center justify-self-center sm:text-xs sm:px-5"
                 onClick={downloadPDF}
               >
-                Dokumen <IoDocumentText />
+                Dokumen <MdDownload />
               </Button>
             </div>
           </div>
         </div>
-        <div className="relative md:col-span-3 col-span-2 flex justify-center items-end">
+        <div className="relative md:col-span-3 col-span-2 flex items-center justify-center">
           <img
             src="/nourut.png"
             alt=""
-            className="absolute top-0 left-1/2 -translate-x-1/2 lg:w-32 md:w-20 w-8 z-10"
+            className="absolute top-0 lg:w-32 md:w-20 w-8 z-10"
             data-aos="fade-up"
             data-aos-duration="500"
           />
           <img
             src="/paslon2.png"
-            alt="Rusti-Mastura-Sulaiman Agusto"
-            className="w-full z-20"
+            alt="Rusti-Mastura-Sulaiman Agusto object-cover"
+            className="self-end w-full z-20"
             data-aos="fade-up"
             data-aos-duration="500"
           />
