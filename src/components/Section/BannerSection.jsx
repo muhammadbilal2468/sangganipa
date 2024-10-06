@@ -34,13 +34,6 @@ const BannerSection = () => {
             ))}
           </div>
           <div className="flex items-center lg:gap-5 md:gap-3 gap-2">
-            <img
-              src="/nourut.png"
-              alt=""
-              className="lg:w-32 md:w-24 w-10"
-              data-aos="fade-up"
-              data-aos-duration="500"
-            />
             <div className="lg:space-y-5 md:space-y-3 space-y-2">
               <h2
                 className="lg:text-6xl md:text-2xl text-xl font-extrabold bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent"
@@ -65,7 +58,14 @@ const BannerSection = () => {
             </div>
           </div>
         </div>
-        <div className="md:col-span-3 col-span-2 flex justify-center items-end">
+        <div className="relative md:col-span-3 col-span-2 flex justify-center items-end">
+          <img
+            src="/nourut.png"
+            alt=""
+            className="absolute top-0 left-1/2 -translate-x-1/2 lg:w-32 md:w-20 w-8 z-10"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          />
           <img
             src="/paslon2.png"
             alt="Rusti-Mastura-Sulaiman Agusto"
