@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const FooterSection = () => {
   return (
-    <div className="relative xl:px-32 lg:px-24 md:px-10 sm:px-5 mx-auto bg-secondary lg:mt-20 md:mt-16 mt-5">
+    <div className="relative xl:px-32 lg:px-24 md:px-10 sm:px-2 mx-auto bg-secondary lg:mt-20 md:mt-16 mt-5">
       <div className="absolute z-20 bottom-0 left-0 md:w-96 w-40 bg-secondary rounded-full blur-3xl opacity-50 transform -translate-x-1/2 translate-y-1/2" />
       <div className="mx-auto w-full max-w-screen-xl p-4 lg:py-8">
         <div className="md:flex md:justify-between">
@@ -22,7 +22,7 @@ const FooterSection = () => {
               <h2 className="lg:mb-6 md:mb-5 mb-4 lg:text-sm text-[10px] font-semibold text-white uppercase">
                 Resources
               </h2>
-              <ul className="lg:text-sm md:text-xs text-[10px] text-gray-400 font-medium cursor-pointer">
+              <ul className="lg:text-sm md:text-xs text-[10px] text-gray-200 font-medium cursor-pointer">
                 <Link to={"/work-program"}>
                   <li className="lg:mb-4 md:mb-3 mb-2">Program Kerja</li>
                 </Link>
@@ -35,7 +35,7 @@ const FooterSection = () => {
               <h2 className="lg:mb-6 md:mb-5 mb-4 lg:text-sm text-[10px] font-semibold text-white uppercase">
                 Media
               </h2>
-              <ul className="lg:text-sm md:text-xs text-[10px] text-gray-400 font-medium cursor-pointer">
+              <ul className="lg:text-sm md:text-xs text-[10px] text-gray-200 font-medium cursor-pointer">
                 <li className="lg:mb-4 md:mb-3 mb-2">RM Media</li>
               </ul>
             </div>
@@ -43,7 +43,7 @@ const FooterSection = () => {
               <h2 className="lg:mb-6 md:mb-5 mb-4 lg:text-sm text-[10px] font-semibold text-white uppercase">
                 Legal
               </h2>
-              <ul className="lg:text-sm md:text-xs text-[10px] text-gray-400 font-medium cursor-pointer">
+              <ul className="lg:text-sm md:text-xs text-[10px] text-gray-200 font-medium cursor-pointer">
                 <li className="lg:mb-4 md:mb-3 mb-2">Privacy Policy</li>
                 <li>Terms &amp; Conditions</li>
               </ul>
@@ -52,7 +52,7 @@ const FooterSection = () => {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="lg:text-sm md:text-xs text-[8px] text-gray-400 sm:text-cente">
+          <span className="lg:text-sm md:text-xs text-[8px] text-gray-200 sm:text-cente">
             © 2024{" "}
             <a
               href="https://muhammadbilalll.vercel.app/"

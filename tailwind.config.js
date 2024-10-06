@@ -15,8 +15,7 @@ export default {
       },
       colors: {
         primary: "#FAC03B",
-        secondary: "#0C1524",
-        tertiary: "#ff4343",
+        secondary: "#a41212",
       },
       keyframes: {
         "focus-in-contract": {

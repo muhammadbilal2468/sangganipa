@@ -11,7 +11,7 @@ const NavbarSection = ({ isScrolled }) => {
   return (
     <nav
       className={`fixed top-0 left-0 w-full duration-300 transition z-40 ${
-        isScrolled ? "bg-secondary" : "bg-gray-100"
+        isScrolled ? "bg-secondary" : "bg-gray-200"
       }`}
     >
       <div className="xl:px-32 lg:px-24 md:px-10 sm:px-5 mx-auto py-4 flex justify-between items-center">
@@ -20,58 +20,58 @@ const NavbarSection = ({ isScrolled }) => {
             <img
               src="/logo.png"
               alt=""
-              className="lg:h-10 md:h-8 sm:h-6 rounded-md bg-gray-100 p-1"
+              className="lg:w-28 md:w-20 w-14  rounded-md bg-gray-100 p-1"
             />
           </Link>
         </div>
 
-        <div className="sm:hidden md:block flex lg:space-x-6 md:space-x-2">
+        <div className="sm:hidden md:block flex lg:space-x-6 md:space-x-2 lg:text-lg md:text-sm">
           <Link
             to={"/"}
-            className={`lg:text-base md:text-xs font-semibold py-1 rounded-lg lg:px-3 md:px-0.5 ${
+            className={`font-semibold py-1 rounded-lg lg:py-3 3 md:py-2 lg:px-5 md:px-2 ${
               isScrolled
-                ? "text-white hover:text-primary hover:bg-white"
-                : "text-black hover:bg-tertiary hover:text-white"
+                ? "text-white hover:text-black hover:bg-white"
+                : "text-black hover:bg-secondary hover:text-white"
             }`}
           >
             Beranda
           </Link>
           <Link
             to={"/profile"}
-            className={`lg:text-base md:text-xs font-semibold py-1 rounded-lg lg:px-3 md:px-0.5 ${
+            className={`font-semibold py-1 rounded-lg lg:py-3 3 md:py-2 lg:px-5 md:px-2 ${
               isScrolled
-                ? "text-white hover:text-primary hover:bg-white"
-                : "text-black hover:bg-tertiary hover:text-white"
+                ? "text-white hover:text-black hover:bg-white"
+                : "text-black hover:bg-secondary hover:text-white"
             }`}
           >
             Profil
           </Link>
           <Link
             to={"/work-program"}
-            className={`lg:text-base md:text-xs font-semibold py-1 rounded-lg lg:px-3 md:px-0.5 ${
+            className={`font-semibold py-1 rounded-lg lg:py-3 3 md:py-2 lg:px-5 md:px-2 ${
               isScrolled
-                ? "text-white hover:text-primary hover:bg-white"
-                : "text-black hover:bg-tertiary hover:text-white"
+                ? "text-white hover:text-black hover:bg-white"
+                : "text-black hover:bg-secondary hover:text-white"
             }`}
           >
             Program Kerja
           </Link>
           <Link
             to={"/news"}
-            className={`lg:text-base md:text-xs font-semibold py-1 rounded-lg lg:px-3 md:px-0.5 ${
+            className={`font-semibold py-1 rounded-lg lg:py-3 3 md:py-2 lg:px-5 md:px-2 ${
               isScrolled
-                ? "text-white hover:text-primary hover:bg-white"
-                : "text-black hover:bg-tertiary hover:text-white"
+                ? "text-white hover:text-black hover:bg-white"
+                : "text-black hover:bg-secondary hover:text-white"
             }`}
           >
             Berita
           </Link>
           <Link
             to={"/gallery"}
-            className={`lg:text-base md:text-xs font-semibold py-1 rounded-lg lg:px-3 md:px-0.5 ${
+            className={`font-semibold py-1 rounded-lg lg:py-3 3 md:py-2 lg:px-5 md:px-2 ${
               isScrolled
-                ? "text-white hover:text-primary hover:bg-white"
-                : "text-black hover:bg-tertiary hover:text-white"
+                ? "text-white hover:text-black hover:bg-white"
+                : "text-black hover:bg-secondary hover:text-white"
             }`}
           >
             Galeri
@@ -83,41 +83,41 @@ const NavbarSection = ({ isScrolled }) => {
           className="sm:block md:hidden fixed right-5 top-5 font-bold cursor-pointer z-50"
         >
           {isMenuOpen ? (
-            <FaTimes />
+            <FaTimes className="text-white" />
           ) : (
             <FaBars className={isScrolled ? "text-white" : ""} />
           )}
         </div>
 
         {isMenuOpen && (
-          <div className="fixed top-0 right-0 w-full h-fit bg-primary shadow-md z-40 flex flex-col items-start p-5 pt-16 space-y-3 border-b-4 border-black">
+          <div className="fixed top-0 right-0 w-full h-fit bg-secondary shadow-md z-40 flex flex-col items-start p-5 pt-16 space-y-3 border-b-4 border-black">
             <Link
               to={"/"}
-              className="lg:text-base md:text-xs text-center font-semibold w-full"
+              className="text-white text-center font-semibold w-full"
             >
               Beranda
             </Link>
             <Link
               to={"/profile"}
-              className="lg:text-base md:text-xs text-center font-semibold w-full"
+              className="text-white text-center font-semibold w-full"
             >
               Profil
             </Link>
             <Link
               to={"/work-program"}
-              className="lg:text-base md:text-xs text-center font-semibold w-full"
+              className="text-white text-center font-semibold w-full"
             >
               Program Kerja
             </Link>
             <Link
               to={"/news"}
-              className="lg:text-base md:text-xs text-center font-semibold w-full"
+              className="text-white text-center font-semibold w-full"
             >
               Berita
             </Link>
             <Link
               to={"/gallery"}
-              className="lg:text-base md:text-xs text-center font-semibold w-full"
+              className="text-white text-center font-semibold w-full"
             >
               Galeri
             </Link>

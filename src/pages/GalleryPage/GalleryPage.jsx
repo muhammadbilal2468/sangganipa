@@ -23,12 +23,12 @@ const GalleryPage = () => {
   return (
     <Layout>
       <div className="relative xl:px-32 lg:px-24 md:px-10 sm:px-5 w-full">
-        <h1 className="flex items-center justify-center gap-2 lg:text-3xl md:text-xl text-md font-bold lg:py-10 md:py-5 py-3 relative text-secondary bg-white p-4 rounded-md mb-10">
+        <h1 className="flex items-center justify-center gap-2 lg:text-3xl md:text-2xl text-xl font-bold lg:py-10 md:py-5 py-3 relative text-secondary bg-white p-4 rounded-md mb-10">
           <RiGalleryFill /> G A L E R I
         </h1>
-        <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
           {gallery.slice(0, visibleImages).map((item, index) => (
-            <div className="w-full lg:h-60 md:h-40 h-36 rounded-lg" key={index}>
+            <div className="w-full lg:h-72 md:h-64 h-60 rounded-lg" key={index}>
               <img
                 className="w-full h-full rounded-lg"
                 src={`/gallery${index + 1}.jpg`}

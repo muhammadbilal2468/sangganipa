@@ -1,110 +1,27 @@
 [
   {
     "id": 1,
-    "image": "/candidate1.jpeg",
-    "author": "soalpalu.com",
+    "image": "/news1.jpg",
+    "author": "tribunpalu.com",
     "date": "2024-09-22",
-    "title": "Paslon 2 Kunjungi Desa Tondo",
-    "desc": "Paslon 2 berdiskusi dengan warga Desa Tondo terkait program pengembangan UMKM.",
-    "link": "#"
+    "title": "Relawan Gempur Sisir Daerah",
+    "desc": "Rusdy Mastura (Gempur) bakal menyisir 120 titik di tiga daerah Sulawesi Tengah secara simultan Relawan yang mendeklarasikan pemenangan Rusdy Mastura-Sulaiman Agusto diketahui menyisir Kota Palu",
+    "link": "https://palu.tribunnews.com/2024/10/01/usai-deklarasi-relawan-gempur-rusdy-mastura-bakal-sisir-120-titik-di-kota-palu-sigi-dan-donggala"
   },
   {
     "id": 2,
-    "image": "/candidate1.jpeg",
-    "author": "tribunsulteng.com",
-    "date": "2024-09-21",
-    "title": "Wawancara dengan Paslon 1",
-    "desc": "Wawancara dengan Paslon 1 terkait program pengembangan UMKM.",
-    "link": "#"
+    "image": "/news2.jpg",
+    "author": "tribunpalu.com",
+    "title": "Komitmen Sangganipa Cudy-SAH",
+    "desc": "Komitmen itu disampaikannya saat berbicara dengan puluhan perwakilan relawan yang beberapa di antaranya merupakan mantan pendukung kandidat lain yang berbalik mendukung CUDY-SAH, di Sekretariat Koalisi Sangganipa, Palu City Square, Artikel ini telah tayang di TribunPalu.com dengan judul Ketua Koalisi Sangganipa Tegaskan Komitmen Cudy-SAH, Jaga Momentum Pembangunan Sulawesi Tengah.",
+    "link": "https://palu.tribunnews.com/2024/09/29/ketua-koalisi-sangganipa-tegaskan-komitmen-cudy-sah-jaga-momentum-pembangunan-sulawesi-tengah"
   },
   {
     "id": 3,
-    "image": "/candidate1.jpeg",
-    "author": "tribunsulteng.com",
-    "date": "2024-09-20",
-    "title": "Pengembangan Pariwisata",
-    "desc": "Pengembangan Pariwisata di Kota Palu.",
-    "link": "#"
-  },
-  {
-    "id": 4,
-    "image": "/candidate1.jpeg",
-    "author": "tribunsulteng.com",
-    "date": "2024-09-20",
-    "title": "Pengembangan Pariwisata",
-    "desc": "Pengembangan Pariwisata di Kota Palu.",
-    "link": "#"
-  },
-  {
-    "id": 5,
-    "image": "/candidate1.jpeg",
-    "author": "tribunsulteng.com",
-    "date": "2024-09-20",
-    "title": "Pengembangan Pariwisata",
-    "desc": "Pengembangan Pariwisata di Kota Palu.",
-    "link": "#"
-  },
-  {
-    "id": 6,
-    "image": "/candidate1.jpeg",
-    "author": "tribunsulteng.com",
-    "date": "2024-09-20",
-    "title": "Pengembangan Pariwisata",
-    "desc": "Pengembangan Pariwisata di Kota Palu.",
-    "link": "#"
-  },
-  {
-    "id": 7,
-    "image": "/candidate1.jpeg",
-    "author": "tribunsulteng.com",
-    "date": "2024-09-20",
-    "title": "Pengembangan Pariwisata",
-    "desc": "Pengembangan Pariwisata di Kota Palu.",
-    "link": "#"
-  },
-  {
-    "id": 8,
-    "image": "/candidate1.jpeg",
-    "author": "tribunsulteng.com",
-    "date": "2024-09-20",
-    "title": "Pengembangan Pariwisata",
-    "desc": "Pengembangan Pariwisata di Kota Palu.",
-    "link": "#"
-  },
-  {
-    "id": 9,
-    "image": "/candidate1.jpeg",
-    "author": "tribunsulteng.com",
-    "date": "2024-09-20",
-    "title": "Pengembangan Pariwisata",
-    "desc": "Pengembangan Pariwisata di Kota Palu.",
-    "link": "#"
-  },
-  {
-    "id": 10,
-    "image": "/candidate1.jpeg",
-    "author": "tribunsulteng.com",
-    "date": "2024-09-20",
-    "title": "Pengembangan Pariwisata",
-    "desc": "Pengembangan Pariwisata di Kota Palu.",
-    "link": "#"
-  },
-  {
-    "id": 11,
-    "image": "/candidate1.jpeg",
-    "author": "tribunsulteng.com",
-    "date": "2024-09-20",
-    "title": "Pengembangan Pariwisata",
-    "desc": "Pengembangan Pariwisata di Kota Palu.",
-    "link": "#"
-  },
-  {
-    "id": 12,
-    "image": "/candidate1.jpeg",
-    "author": "tribunsulteng.com",
-    "date": "2024-09-20",
-    "title": "Pengembangan Pariwisata",
-    "desc": "Pengembangan Pariwisata di Kota Palu.",
-    "link": "#"
+    "image": "/news3.jpg",
+    "author": "tribunpalu.com",
+    "title": "Bantuan Ambulance Gubernur Sulteng",
+    "desc": "Gubernur Sulawesi Tengah Rusdy Mastura yang didampingi Kepala Biro Kesra, Awaluddin, bersama Kepala Biro Adpim Eddy Nicolas Lesnusa, secara simbolis menyerahkan bantuan 25 ambulance kepada perwakilan penerima kelembagaan dan rumah ibadah",
+    "link": "https://palu.tribunnews.com/2024/09/25/gubernur-sulteng-serahkan-bantuan-25-unit-ambulance"
   }
 ]

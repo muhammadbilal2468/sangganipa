@@ -7,23 +7,23 @@ import Layout from "../../layouts/Layout";
 import { GiNewspaper } from "react-icons/gi";
 
 const NewsPage = () => {
-  const [visibleCount, setVisibleCount] = useState(4);
+  const [visibleCount, setVisibleCount] = useState(3);
 
   const loadMore = () => {
-    setVisibleCount((prevCount) => prevCount + 4);
+    setVisibleCount((prevCount) => prevCount + 3);
   };
 
   const showLess = () => {
-    setVisibleCount((prevCount) => (prevCount > 4 ? prevCount - 4 : 4));
+    setVisibleCount((prevCount) => (prevCount > 3 ? prevCount - 3 : 3));
   };
 
   return (
     <Layout>
       <div className="relative xl:px-32 lg:px-24 md:px-10 sm:px-5 w-full">
-        <h1 className="flex items-center justify-center gap-2 lg:text-3xl md:text-xl text-md font-bold lg:py-10 md:py-5 py-3 relative text-secondary bg-white p-4 rounded-md mb-10">
+        <h1 className="flex items-center justify-center gap-2 lg:text-3xl md:text-2xl text-xl font-bold lg:py-10 md:py-5 py-3 relative text-secondary bg-white p-4 rounded-md mb-10">
           <GiNewspaper /> B E R I T A
         </h1>
-        <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 lg:gap-10 md:gap-5 gap-3">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-5 gap-3">
           {news.slice(0, visibleCount).map((newsItem) => (
             <CardNews
               key={newsItem.id}

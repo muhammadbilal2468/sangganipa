@@ -19,12 +19,10 @@ const CardWorkProgram = ({ id, image, title, desc, reverse }) => {
 
       {/* Bagian Deskripsi */}
       <div className="lg:space-y-4 space-y-2 md:w-1/2">
-        <h2 className="lg:text-3xl md:text-base text-xs font-semibold text-tertiary">
+        <h2 className="lg:text-3xl md:text-2xl text-lg font-semibold text-tertiary md:text-start text-center">
           {title}
         </h2>
-        <p className="lg:text-base md:text-xs text-[8px] text-justify">
-          {desc}
-        </p>
+        <p className="lg:text-xl md:text-base text-sm text-justify">{desc}</p>
       </div>
     </div>
   );

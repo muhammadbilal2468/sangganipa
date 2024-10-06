@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
   }, []);
 
   return (
-    <div className="relative w-full min-h-screen bg-gray-100">
+    <div className="relative w-full min-h-screen bg-gray-200">
       <NavbarSection isScrolled={isScrolled} />
       <div className="relative w-full pt-20">{children}</div>
       <FooterSection />
