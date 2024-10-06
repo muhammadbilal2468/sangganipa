@@ -1,18 +1,32 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import workprogram from "../../data/workprogram.json";
 import CardWorkProgram from "../Fragment/CardWorkProgram";
 
 const WorkProgramSection = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <div className="relative xl:px-32 lg:px-24 md:px-10 sm:px-5 w-full lg:py-20 md:py-16 py-10">
       <div className="flex items-center justify-between lg:mb-20 mb-10">
-        <h1 className="lg:text-3xl md:text-2xl text-xl font-extrabold text-center border-b-4 border-secondary">
+        <h1
+          className="lg:text-3xl md:text-2xl text-xl font-extrabold text-center border-b-4 border-secondary"
+          data-aos="fade-left"
+          data-aos-duration="700"
+        >
           PROGRAM-KERJA
         </h1>
         <Link
           to={"/work-program"}
           className="flex items-center gap-2 text-tertiary lg:text-xl md:text-md text-xs font-bold text-secondary hover:text-primary"
+          data-aos="fade-right"
+          data-aos-duration="700"
         >
           Lihat Semua <FaLongArrowAltRight />
         </Link>

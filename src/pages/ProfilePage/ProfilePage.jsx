@@ -1,8 +1,16 @@
-import Layout from "../../layouts/Layout";
-import gubernatorial from "../../data/gubernatorial.json";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import deputygubernatorial from "../../data/deputygubernatorial.json";
+import gubernatorial from "../../data/gubernatorial.json";
+import Layout from "../../layouts/Layout";
 
 const ProfilePage = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <Layout>
       <div className="relative xl:px-32 lg:px-24 md:px-10 sm:px-5 w-full">
@@ -31,7 +39,11 @@ const ProfilePage = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-md lg:p-5 md:p-3 p-2">
+            <div
+              className="bg-white rounded-md lg:p-5 md:p-3 p-2"
+              data-aos="fade-up"
+              data-aos-duration="700"
+            >
               <div className="space-y-2 lg:mt-10">
                 <p className="text-primary lg:text-xl md:text-lg text-base font-extrabold">
                   KELUARGA
@@ -52,7 +64,11 @@ const ProfilePage = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-md lg:p-5 md:p-3 p-2">
+            <div
+              className="bg-white rounded-md lg:p-5 md:p-3 p-2"
+              data-aos="fade-up"
+              data-aos-duration="700"
+            >
               <div className="space-y-2 lg:mt-10">
                 <p className="text-primary lg:text-xl md:text-lg text-base font-extrabold">
                   RIWAYAT PENDIDIDIKAN
@@ -69,7 +85,11 @@ const ProfilePage = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-md lg:p-5 md:p-3 p-2">
+            <div
+              className="bg-white rounded-md lg:p-5 md:p-3 p-2"
+              data-aos="fade-up"
+              data-aos-duration="700"
+            >
               <div className="space-y-2 lg:mt-10">
                 <p className="text-primary lg:text-xl md:text-lg text-base font-extrabold">
                   RIWAYAT JABATAN
@@ -86,7 +106,11 @@ const ProfilePage = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-md lg:p-5 md:p-3 p-2">
+            <div
+              className="bg-white rounded-md lg:p-5 md:p-3 p-2"
+              data-aos="fade-up"
+              data-aos-duration="700"
+            >
               <div className="space-y-2 lg:mt-10">
                 <p className="text-primary lg:text-xl md:text-lg text-base font-extrabold">
                   RIWAYAT ORGANISASI
@@ -130,7 +154,11 @@ const ProfilePage = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-md lg:p-5 md:p-3 p-2">
+            <div
+              className="bg-white rounded-md lg:p-5 md:p-3 p-2"
+              data-aos="fade-up"
+              data-aos-duration="700"
+            >
               <div className="space-y-2 lg:mt-10">
                 <p className="text-primary lg:text-xl md:text-lg text-base font-extrabold">
                   KELUARGA
@@ -151,7 +179,11 @@ const ProfilePage = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-md lg:p-5 md:p-3 p-2">
+            <div
+              className="bg-white rounded-md lg:p-5 md:p-3 p-2"
+              data-aos="fade-up"
+              data-aos-duration="700"
+            >
               <div className="space-y-2 lg:mt-10">
                 <p className="text-primary lg:text-xl md:text-lg text-base font-extrabold">
                   RIWAYAT PENDIDIDIKAN
@@ -168,7 +200,11 @@ const ProfilePage = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-md lg:p-5 md:p-3 p-2">
+            <div
+              className="bg-white rounded-md lg:p-5 md:p-3 p-2"
+              data-aos="fade-up"
+              data-aos-duration="700"
+            >
               <div className="space-y-2 lg:mt-10">
                 <p className="text-primary lg:text-xl md:text-lg text-base font-extrabold">
                   RIWAYAT JABATAN
@@ -185,7 +221,11 @@ const ProfilePage = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-md lg:p-5 md:p-3 p-2">
+            <div
+              className="bg-white rounded-md lg:p-5 md:p-3 p-2"
+              data-aos="fade-up"
+              data-aos-duration="700"
+            >
               <div className="space-y-2 lg:mt-10">
                 <p className="text-primary lg:text-xl md:text-lg text-base font-extrabold">
                   RIWAYAT TANDA PENGHORMATAN

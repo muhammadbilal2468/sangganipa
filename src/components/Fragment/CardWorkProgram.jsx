@@ -1,12 +1,22 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 import PropTypes from "prop-types";
+import { useEffect } from "react";
 
 const CardWorkProgram = ({ id, image, title, desc, reverse }) => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <div
       className={`flex flex-col md:flex-row items-start lg:gap-32 md:gap-16 gap-10 ${
         reverse ? "md:flex-row-reverse" : ""
       }`}
       key={id}
+      data-aos="fade-up"
+      data-aos-duration="500"
     >
       {/* Bagian Gambar */}
       <div className="relative w-full md:w-1/2 lg:h-72 md:h-56 h-40">

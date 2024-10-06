@@ -1,9 +1,17 @@
 import { FaArrowCircleRight, FaLongArrowAltRight } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import Button from "../Base/Button";
 import { Link } from "react-router-dom";
 import gallery from "../../data/gallery.json";
 
 const GallerySection = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <div className="relative xl:px-32 lg:px-24 md:px-10 sm:px-5 lg:py-20 md:py-16 py-10 mx-auto">
       <div className="flex items-center justify-between lg:mb-20 mb-10">
@@ -23,12 +31,10 @@ const GallerySection = () => {
           <div
             className="w-full lg:h-72 md:h-64 h-60 rounded-lg lg:p-2 p-1 bg-white"
             key={index}
+            data-aos="fade-down"
+            data-aos-duration={index * 200}
           >
-            <img
-              className="w-full h-full rounded-lg"
-              src={`/gallery${index + 1}.jpg  `}
-              alt=""
-            />
+            <img className="w-full h-full rounded-lg" src={item.image} alt="" />
           </div>
         ))}
       </div>

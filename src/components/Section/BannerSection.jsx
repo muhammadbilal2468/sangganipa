@@ -1,12 +1,22 @@
+import { IoDocumentText } from "react-icons/io5";
 import party from "../../data/party.json";
+import Button from "../Base/Button";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const BannerSection = () => {
-  // const downloadPDF = () => {
-  //   const link = document.createElement("a");
-  //   link.href = "/document.pdf";
-  //   link.download = "Dokumen Pengesahan Calon Perwakilan.pdf";
-  //   link.click();
-  // };
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
+  const downloadPDF = () => {
+    const link = document.createElement("a");
+    link.href = "/document.pdf";
+    link.download = "Dokumen Pengesahan Calon Perwakilan.pdf";
+    link.click();
+  };
   return (
     <div className="lg:pt-16 md:pt-10 pt-0 border-b-2">
       <div className="relative xl:px-32 lg:px-24 md:px-10 sm:px-5 grid grid-cols-6 md:pb-0 pb-5">
@@ -18,32 +28,50 @@ const BannerSection = () => {
                 alt=""
                 className="lg:h-12 md:h-8 h-6 rounded-lg"
                 key={index}
+                data-aos="fade-up"
+                data-aos-duration={index * 200}
               />
             ))}
           </div>
           <div className="flex items-center lg:gap-5 md:gap-3 gap-2">
-            <img src="/nourut.png" alt="" className="lg:w-32 md:w-24 w-10" />
-            <div className="lg:space-y-5 md:space-y-3 space-y-0">
-              <h2 className="lg:text-6xl md:text-2xl text-xl font-extrabold bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
+            <img
+              src="/nourut.png"
+              alt=""
+              className="lg:w-32 md:w-24 w-10"
+              data-aos="fade-up"
+              data-aos-duration="500"
+            />
+            <div className="lg:space-y-5 md:space-y-3 space-y-2">
+              <h2
+                className="lg:text-6xl md:text-2xl text-xl font-extrabold bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent"
+                data-aos="fade-up"
+                data-aos-duration="500"
+              >
                 CUDYAGUSTO
               </h2>
-              <p className="lg:text-3xl md:text-xl text-xs text-white font-semibold bg-primary rounded-lg lg:p-2 md:p-1.5 p-1 w-fit">
+              <p
+                className="lg:text-3xl md:text-xl text-xs text-primary font-semibold bg-white rounded-lg lg:p-2 md:p-1.5 p-1 w-fit"
+                data-aos="fade-up"
+                data-aos-duration="500"
+              >
                 # SULTENG EMAS
               </p>
+              <Button
+                className="flex items-center gap-2 w-fit self-center justify-self-center sm:text-xs sm:px-5"
+                onClick={downloadPDF}
+              >
+                Dokumen <IoDocumentText />
+              </Button>
             </div>
           </div>
-          {/* <Button
-            className="flex items-center gap-2 w-fit"
-            onClick={downloadPDF}
-          >
-            Downlaod Dokumen <IoDocumentText />
-          </Button> */}
         </div>
         <div className="md:col-span-3 col-span-2 flex justify-center items-end">
           <img
             src="/paslon2.png"
             alt="Rusti-Mastura-Sulaiman Agusto"
             className="w-full z-20"
+            data-aos="fade-up"
+            data-aos-duration="500"
           />
         </div>
       </div>

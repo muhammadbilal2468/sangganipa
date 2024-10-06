@@ -1,12 +1,22 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 import PropTypes from "prop-types";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Button from "../Base/Button";
 
 const CardNews = ({ id, image, title, author, desc, link }) => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <div
       key={id}
       className="flex flex-col w-full h-full gap-5 cursor-pointer rounded-lg bg-white lg:p-4 p-2 pb-3"
+      data-aos="fade-up"
+      data-aos-duration="500"
     >
       <img
         src={`${image}`}
