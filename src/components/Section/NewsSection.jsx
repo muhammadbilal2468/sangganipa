@@ -8,12 +8,18 @@ const NewsSection = () => {
   return (
     <div className="relative xl:px-32 lg:px-24 md:px-10 sm:px-5 w-full lg:py-20 md:py-16 py-10">
       <div className="flex items-center justify-between lg:mb-20 mb-10">
-        <h1 className="lg:text-3xl md:text-2xl text-xl font-extrabold text-center border-b-4 border-secondary">
+        <h1
+          className="lg:text-3xl md:text-2xl text-xl font-extrabold text-center border-b-4 border-secondary"
+          data-aos="fade-left"
+          data-aos-duration="700"
+        >
           B E R I T A
         </h1>
         <Link
           to={"/news"}
           className="flex items-center gap-2 text-tertiary lg:text-xl md:text-md text-xs font-bold text-secondary hover:text-primary"
+          data-aos="fade-right"
+          data-aos-duration="700"
         >
           Lihat Semua <FaLongArrowAltRight />
         </Link>

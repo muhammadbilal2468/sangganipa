@@ -16,14 +16,14 @@ const VissionMissonSection = () => {
         <div className="">
           <h1
             className="lg:text-3xl md:text-2xl text-xl font-extrabold text-center border-b-4 border-secondary w-fit px-10 pb-5"
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-duration="700"
           >
             V I S I
           </h1>
           <h2
             className="font-semibold text-center lg:text-lg md:text-base text-sm lg:leading-10 md:leading-7 leading-5 tracking-wide bg-white rounded-lg p-5"
-            data-aos="fade-down"
+            data-aos="fade-up"
             data-aos-duration="700"
           >
             {vision}
@@ -32,7 +32,7 @@ const VissionMissonSection = () => {
         <div className="">
           <h1
             className="lg:text-3xl md:text-2xl text-xl font-extrabold text-center border-b-4 border-secondary w-fit px-10 pb-5"
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-duration="700"
           >
             M I S I
@@ -42,7 +42,7 @@ const VissionMissonSection = () => {
               <div
                 className="relative flex items-center md:justify-center justify-start gap-2 lg:p-4 p-0 rounded-xl"
                 key={index}
-                data-aos="fade-down"
+                data-aos="fade-up"
                 data-aos-duration={index * 200}
               >
                 <div className="flex items-center justify-center w-10 h-10">
