@@ -6,11 +6,13 @@ import WorkProgramSection from "../../components/Section/WorkProgramSection";
 import Layout from "../../layouts/Layout";
 import About from "../../components/Section/About";
 import VissionMissonSection from "../../components/Section/VissionMissionSection";
+import Slide from "../../components/Section/Slide";
 
 const LandingPage = () => {
   return (
     <Layout>
       <BannerSection />
+      <Slide />
       <About />
       <VissionMissonSection />
       <WorkProgramSection />
