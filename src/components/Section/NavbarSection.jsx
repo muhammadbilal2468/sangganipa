@@ -57,7 +57,7 @@ const NavbarSection = ({ isScrolled }) => {
                 : "text-black hover:bg-secondary hover:text-white"
             }`}
           >
-            Program Kerja
+            Program Prioritas
           </Link>
           <Link
             to={"/news"}

@@ -8,7 +8,7 @@ const WorkProgramPage = () => {
     <Layout>
       <div className="relative xl:px-32 lg:px-24 md:px-10 sm:px-5 w-full">
         <h1 className="flex items-center justify-center gap-2 lg:text-3xl md:text-2xl text-xl font-bold lg:py-10 md:py-5 py-3 relative text-secondary bg-white p-4 rounded-md mb-10">
-          <PiNotepadFill /> P R O G R A M - K E R J A
+          <PiNotepadFill /> P R O G R A M &nbsp; P R I O R I T A S
         </h1>
         <div className="grid grid-cols-1 lg:gap-32 md:gap-20 gap-10 mt-10">
           {workprogram.map((program, index) => (

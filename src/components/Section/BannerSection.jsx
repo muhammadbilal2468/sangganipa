@@ -53,7 +53,7 @@ const BannerSection = () => {
                 className="flex items-center gap-2 w-fit self-center justify-self-center sm:text-xs sm:px-5"
                 onClick={downloadPDF}
               >
-                Dokumen <MdDownload />
+                Visi & Misi <MdDownload />
               </Button>
             </div>
           </div>

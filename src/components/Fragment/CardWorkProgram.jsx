@@ -9,6 +9,7 @@ const CardWorkProgram = ({ id, image, title, desc, reverse }) => {
       duration: 1000,
     });
   }, []);
+
   return (
     <div
       className={`flex flex-col md:flex-row items-start lg:gap-32 md:gap-16 gap-10 ${
@@ -22,7 +23,7 @@ const CardWorkProgram = ({ id, image, title, desc, reverse }) => {
       <div className="relative w-full md:w-1/2 lg:h-72 md:h-56 h-40">
         <img
           src={image}
-          alt="porgram kerja"
+          alt="program kerja"
           className="absolute top-0 left-0 right-0 bottom-0 w-fit h-full z-20 mx-auto"
         />
       </div>
@@ -32,7 +33,22 @@ const CardWorkProgram = ({ id, image, title, desc, reverse }) => {
         <h2 className="lg:text-3xl md:text-2xl text-lg font-semibold text-tertiary md:text-start text-center">
           {title}
         </h2>
-        <p className="lg:text-xl md:text-base text-sm text-justify">{desc}</p>
+        {/* Render array of desc with custom indent */}
+        <ul className="lg:text-xl md:text-base text-sm list-disc list-inside space-y-1">
+          {desc.map((item, index) => (
+            <li
+              key={index}
+              className="relative"
+              style={{
+                textIndent: "-1.5em",
+                paddingLeft: "1.5em",
+                whiteSpace: "pre-wrap",
+              }}
+            >
+              {item}
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
@@ -42,7 +58,7 @@ CardWorkProgram.propTypes = {
   id: PropTypes.number,
   image: PropTypes.string,
   title: PropTypes.string,
-  desc: PropTypes.string,
+  desc: PropTypes.arrayOf(PropTypes.string), // Desc sebagai array string
   reverse: PropTypes.bool,
 };
 

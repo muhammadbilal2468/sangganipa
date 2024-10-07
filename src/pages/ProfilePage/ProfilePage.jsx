@@ -22,7 +22,7 @@ const ProfilePage = () => {
               className="lg:w-96 md:w-80 w-52 lg:h-[450px] md:h-[350px] h-[250px] self-center"
             />
             <div className="relative w-full border-t-4 border-primary">
-              <h2 className="absolute lg:-top-7 md:-top-5 -top-3 left-0 lg:text-3xl md:text-xl text-sm font-bold bg-secondary text-white py-1 px-10 rounded-lg">
+              <h2 className="absolute text-center lg:-top-7 md:-top-5 -top-3 left-0 lg:text-3xl md:text-xl text-sm font-bold bg-secondary text-white py-1 w-full rounded-lg">
                 {gubernatorial.name}
               </h2>
             </div>
@@ -136,7 +136,7 @@ const ProfilePage = () => {
               className="lg:w-96 md:w-80 w-52 lg:h-[450px] md:h-[350px] h-[250px] self-center"
             />
             <div className="relative w-full border-t-4 border-primary">
-              <h2 className="absolute lg:-top-7 md:-top-5 -top-3 left-0 lg:text-3xl md:text-xl text-sm font-bold bg-secondary text-white py-1 px-10 rounded-lg">
+              <h2 className="absolute text-center lg:-top-7 md:-top-5 -top-3 left-0 lg:text-3xl md:text-xl text-sm font-bold bg-secondary text-white py-1 w-full rounded-lg">
                 {deputygubernatorial.name}
               </h2>
             </div>

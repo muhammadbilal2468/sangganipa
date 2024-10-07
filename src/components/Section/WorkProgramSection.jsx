@@ -20,7 +20,7 @@ const WorkProgramSection = () => {
           data-aos="fade-left"
           data-aos-duration="700"
         >
-          PROGRAM-KERJA
+          PROGRAM PRIORITAS
         </h1>
         <Link
           to={"/work-program"}
