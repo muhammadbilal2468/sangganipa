@@ -110,7 +110,7 @@ const NavbarSection = ({ isScrolled }) => {
               to={"/work-program"}
               className="text-white text-center font-semibold w-full"
             >
-              Program Kerja
+              Program Prioritas
             </Link>
             <Link
               to={"/news"}
